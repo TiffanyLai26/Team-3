@@ -45,5 +45,5 @@ def cashonhand_function(forex):
     if count == 0:
             # when count = 0 it will open the summary_report txt as file in append mode
             with file_path.open(mode = 'a', encoding = 'UTF-8', newline="") as file:
-                # write cash surplus 
+               
                 text = file.write(f'\n[CASH SURPLUS] CASH ON EACH DAY IS HIGHER THAN THE PREVIOUS DAY')
